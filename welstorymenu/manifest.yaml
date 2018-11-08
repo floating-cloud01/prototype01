@@ -1,0 +1,7 @@
+---
+applications:
+- name: welstorymenu
+  memory: 128MB
+  instances: 1
+  buildpack: nodejs_buildpack
+  command: node index.js

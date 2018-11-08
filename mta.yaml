@@ -1,0 +1,12 @@
+ID: Welstory
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: welstorymenu
+   type: nodejs
+   path: welstorymenu
+   provides:
+    - name: welstorymenu_api
+      properties:
+         url: ${default-url}
